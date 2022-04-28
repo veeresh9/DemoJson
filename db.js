@@ -1,8 +1,2 @@
-const data= {
-  "posts": [
-    {
-     "title" : "Thank You for Choosing our Product"
-    }
-  ]
-}
-console.log(data.title);
+let json = require('/Users/Veeresh/COIS/JsonService/DemoJson/db.json');
+console.log(json, 'the json obj')
