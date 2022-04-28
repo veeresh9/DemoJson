@@ -1,4 +1,4 @@
-const obj = {
+{
     "posts": [
       {
         "title": "Thank You for Choosing our Product"
@@ -7,7 +7,4 @@ const obj = {
     "profile": {
       "name": "typicode"
     }
-  }
-const res = Object.values(obj).join('\n')
-
-console.log(res)
+}
