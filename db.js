@@ -1,13 +1,8 @@
-var service= {
-    "abc" : "serv",
-    "posts": [
-      {
-        "title": "Thank You for Choosing our Product"
-      }
-    ]
-},
-    "profile": {
-      "name": "typicode"
+const data= {
+  "posts": [
+    {
+     "title" : "Thank You for Choosing our Product"
     }
+  ]
 }
-alert(abc.posts[o].title);
+console.log(data.title);
