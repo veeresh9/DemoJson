@@ -1,4 +1,4 @@
-{
+const obj = {
     "posts": [
       {
         "title": "Thank You for Choosing our Product"
@@ -8,3 +8,6 @@
       "name": "typicode"
     }
   }
+const res = Object.values(obj).join('\n')
+
+console.log(res)
