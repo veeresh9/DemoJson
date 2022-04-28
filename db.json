@@ -1,11 +1,8 @@
 {
-    "posts": [
+    "posts":[
       {
         "title": "Thank You for Choosing our Product"
       }
     
-    ],
-    "profile": {
-      "name": "typicode"
-    }
+    ]
 }
