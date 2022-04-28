@@ -1,4 +1,13 @@
-const { require } = require("jsforce/lib/core");
-
-let db = require("DemoJson/db.json");
-console.log(db[0].title);
+var service= {
+    "abc" : "serv",
+    "posts": [
+      {
+        "title": "Thank You for Choosing our Product"
+      }
+    ]
+},
+    "profile": {
+      "name": "typicode"
+    }
+}
+alert(abc.posts[o].title);
