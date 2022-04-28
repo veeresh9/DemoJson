@@ -1,10 +1,14 @@
-{
+const json ={
     "posts": [
       {
         "title": "Thank You for Choosing our Product"
       }
+    
     ],
     "profile": {
       "name": "typicode"
     }
-}
+  }
+const obj = JSON.parse(json);
+
+console.log(obj.count);
